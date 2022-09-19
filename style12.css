@@ -1,0 +1,1018 @@
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: fit-content;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-cart {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.wrappercon {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+#logo-company {
+  font-size: 24px;
+  font-family: "DM Serif Display";
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li a {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 16px;
+  color: #000;
+}
+
+.nav-cart {
+  display: flex;
+}
+
+.nav-cart a i {
+  font-size: 28px;
+  color: #000;
+  margin-right: 1rem;
+}
+
+.nav-cart h6 {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px;
+  height: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 100%;
+  margin-top: -1rem;
+  margin-left: -1rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 85vh;
+}
+
+.jumbotron .jumbo-pict {
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+.jumbotron .jumbo-pict img {
+  position: absolute;
+  z-index: -1;
+}
+
+.jumbo-content {
+  display: flex;
+  margin-top: 7vh;
+}
+
+.jumbo-content .left-jb {
+  width: 80%;
+}
+
+.jumbo-content .right-jb {
+  width: 20%;
+}
+
+.jumbo-content h4 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.jumbo-content h1 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.jumbo-content span {
+  color: #fff;
+}
+
+.jumbo-content p {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  width: 30vw;
+  opacity: 80%;
+}
+
+.jumbo-content .left-jb a {
+  display: block;
+  margin-top: 3rem;
+  background-color: #000;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: "poppins";
+  width: 16vw;
+  padding: 1rem 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.jumbo-text {
+  display: flex;
+  align-items: center;
+}
+
+.line-height {
+  height: 11rem;
+  width: 2px;
+  background-color: #000;
+  margin-right: 1rem;
+}
+
+.right-jb {
+  position: relative;
+  top: 28vh;
+  margin-left: 3rem;
+}
+
+.right-jb p {
+  width: 14rem;
+}
+
+.p-down {
+  margin-top: 10.5rem;
+}
+
+/* Brand Selling */
+
+.section-title-wrap {
+  margin: 4rem 0 3rem 0;
+}
+
+.section-title-wrap p {
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  color: #000;
+  opacity: 80%;
+}
+
+#section-title {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.brand-wrapper {
+  background-color: #000;
+  height: 24vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brand-wrapper img {
+  width: 172px;
+  height: 80px;
+}
+
+/* Card */
+
+.card-img {
+  width: 288px;
+  height: 300px;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  width: 288px;
+  height: 160px;
+  background-color: #000;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins";
+}
+
+.card-img img {
+  width: 143px;
+}
+
+.card-content-details {
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content-details h4 {
+  font-size: 20px;
+}
+
+.card-content-details h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-content-center {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-content-center a {
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0.5rem 2.8rem;
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+/* Top Selling */
+.selling-content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+  height: 64vh;
+  font-family: "Poppins";
+}
+
+.selling-content img {
+  width: 100%;
+  height: 100%;
+}
+
+.selling-content-left {
+  width: 60%;
+  background-image: url(gambar/bg-convers.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.content-left-details {
+  display: flex;
+  justify-content: space-between;
+  height: 96px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  padding: 0 24px;
+  align-items: center;
+}
+
+.selling-price h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.selling-price h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.selling-button a {
+  background-color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8rem 2.5rem;
+}
+
+.selling-button a:hover {
+  opacity: 70%;
+  transition: ease 0.5s;
+}
+
+.selling-content-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.selling-content-up {
+  height: 50%;
+  background-image: url(gambar/bg-shirt.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.selling-content-down {
+  height: 50%;
+  background-image: url(gambar/bg-cap.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Benefit Section */
+.benefit {
+  margin: 8rem 0;
+}
+
+.benefit-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10vw;
+}
+
+.benefit-title h3 {
+  font-size: 56px;
+  width: 50%;
+  font-weight: 400;
+}
+
+.benefit-title-sub {
+  width: 65%;
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.line-title-benefit {
+  height: 10vh;
+  width: 0.4%;
+  background-color: #000;
+  opacity: 40%;
+  border-radius: 4px;
+}
+
+.benefit-title p {
+  width: 80%;
+  font-family: "Poppins";
+  font-size: 18px;
+  opacity: 80%;
+}
+
+.benefit-content {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefit-content-wrapper {
+  width: 25%;
+  display: flex;
+  column-gap: 2rem;
+}
+
+.wrapper-left-up,
+.wrapper-left-center,
+.wrapper-left-down {
+  height: 100%;
+  width: 4px;
+  background-color: #999;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-left-up {
+  justify-content: flex-start;
+}
+.wrapper-left-center {
+  justify-content: center;
+}
+.wrapper-left-down {
+  justify-content: flex-end;
+}
+
+.benefit-content-line {
+  position: absolute;
+  height: 8%;
+  width: 8px;
+  background-color: #000;
+  border-radius: 6px;
+}
+
+.benefit-content-wrapper .wrapper-right i {
+  padding: 1rem 0;
+  font-size: 32px;
+}
+
+.benefit-content-wrapper .wrapper-right h4 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.benefit-content-wrapper .wrapper-right p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins";
+  opacity: 80%;
+}
+
+/* Footer Section */
+footer {
+  background-color: #000;
+  height: 50vh;
+  padding: 4rem 2rem;
+  margin-top: 6rem;
+}
+
+.footer-contents {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-contents h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  opacity: 90%;
+}
+
+.footer-contents a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  opacity: 80%;
+}
+
+.footer-contents a:hover {
+  opacity: 100%;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin: 3rem 0 2rem 0;
+  opacity: 60%;
+}
+
+.footer-end {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-end h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.footer-end p {
+  font-size: 18px;
+  font-family: "Poppins";
+  opacity: 70%;
+}
+
+/* ===== HALAMAN BELI PRODUK ===== */
+
+.buy-wrapper {
+  position: relative;
+  top: 5vh;
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+  font-family: "Poppins";
+}
+
+.buy-img {
+  width: 25%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+}
+
+.buy-img img {
+  max-width: 220px;
+  max-height: 230px;
+}
+
+.buy-content {
+  width: 50%;
+}
+
+.buy-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.buy-content span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buy-content p {
+  margin-top: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 80%;
+  color: #000;
+}
+
+.buy-content .add-button {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 1rem;
+}
+
+.buy-content #add-number {
+  width: 30%;
+  height: 2.5rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.buy-content #buy-input {
+  width: 8rem;
+  height: 2.5rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+/* ===== HALAMAN KERANJANG ===== */
+
+/* Cart Section */
+.cart-wrapper {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  height: 18vh;
+  column-gap: 1rem;
+  font-family: "Poppins";
+}
+
+.cart-img {
+  width: 12%;
+  background-color: #ededed;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-img img {
+  padding: 16px;
+  width: auto;
+  height: auto;
+}
+
+.cart-title {
+  width: 30%;
+  padding: 0 2rem;
+}
+
+.cart-title h3 {
+  font-size: 20px;
+  width: 90%;
+  font-weight: 500;
+  color: #000;
+  opacity: 80%;
+}
+
+.cart-qty {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-qty h6 {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.cart-price {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-price h6 {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.cart-total-price {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-total-price h6 {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.cart-delete {
+  height: fit-content;
+  width: 15%;
+  height: 40%;
+  background-color: #ff4444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-delete a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10% 45%;
+}
+
+.cart-line {
+  margin: 2rem 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  opacity: 50%;
+}
+
+.cart-checkout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-checkout a {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  padding: 0.8rem 2.4rem;
+}
+
+.cart-empty {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-empty h3 {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 80%;
+}
+
+/* Cart Category */
+.category-wrapper {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.category-wrapper select {
+  font-family: "Poppins";
+  border-radius: 0%;
+  padding: 0.5rem 2rem;
+  border: 2px solid #000;
+  font-size: 16px;
+}
+
+/* ===== HALAMAN HISTORI ===== */
+.history-wrapper {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  height: 18vh;
+  column-gap: 1rem;
+  font-family: "Poppins";
+}
+
+.history-img {
+  width: 12%;
+  background-color: #ededed;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.history-img img {
+  padding: 24px;
+  width: auto;
+  height: auto;
+}
+
+.history-title {
+  width: 20%;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.history-title h3 {
+  font-size: 20px;
+  width: 90%;
+  font-weight: 500;
+  color: #000;
+  opacity: 80%;
+}
+
+.history-date {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.history-date h6 {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.history-qty {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.history-qty h6 {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.history-price {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.history-price h6 {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.history-total-price {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.history-total-price h6 {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.history-delete {
+  height: fit-content;
+  width: 15%;
+  height: 40%;
+  background-color: #ff4444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-delete a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10% 45%;
+}
+
+.history-empty {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-empty h3 {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 80%;
+}
+
+/* ===== HALAMAN LOGIN & SIGN UP ===== */
+
+.nav-login,
+.nav-signup {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-login-title,
+.nav-signup-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-login-title h3,
+.nav-signup-title h3 {
+  font-size: 40px;
+  font-family: "DM Serif Display";
+}
+
+.nav-login-title p,
+.nav-signup-title p {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #000;
+  opacity: 90%;
+}
+
+.login-content,
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+.login-session,
+.signup-session {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title h2,
+.signup-title h2 {
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-family: "DM Serif Display";
+  font-weight: 600;
+}
+
+.login-content-input,
+.signup-content-input {
+  width: 66.8%;
+}
+
+form .text-field {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 2rem 0;
+  font-family: "Poppins";
+}
+
+.text-field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.text-field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.text-field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ff4444;
+  transition: 0.5s;
+}
+
+.text-field input:focus ~ label,
+.text-field input:valid ~ label {
+  top: -5px;
+  color: #ff4444;
+}
+
+.text-field input:focus ~ span::before,
+.text-field input:valid ~ span::before {
+  width: 100%;
+}
+
+.login-pict,
+.signup-pict {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-pict img,
+.signup-pict img {
+  width: 90%;
+  margin-top: -5rem;
+}
+
+.button-login input,
+.button-signup input {
+  width: 100%;
+  height: 48px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins";
+  cursor: pointer;
+  outline: none;
+}
+
+.signup-link,
+.login-link {
+  margin: 30px auto;
+  text-align: center;
+  font-family: "Poppins";
+  color: #000;
+  opacity: 80%;
+}
+
+.signup-link a,
+.login-link a {
+  color: #ff4444;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.signup-link a:hover,
+.login-link a:hover {
+  text-decoration: underline;
+}
